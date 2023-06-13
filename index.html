@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Carousel</title>
+    <link rel="stylesheet" href="./kpStyle/style.css">
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">&#10094</button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current__slide">
+                   <img class="carousel__image" src="./figures/WorshipMediaPro_04.jpg" alt="Tree"> 
+                </li>
+                <li class="carousel__slide">
+                  <img class="carousel__image" src="./figures/WorshipMediaPro_09.jpg" alt="Road">  
+                </li>
+                <li class="carousel__slide">
+                   <img class="carousel__image" src="./figures/wp_beach_sunrise.jpg" alt="Beach"> 
+                </li>
+                <li class="carousel__slide">
+                   <img class="carousel__image" src="./figures/wp_easter_sunrise_cross.jpg" alt="Cross"> 
+                </li>
+                <li class="carousel__slide">
+                   <img class="carousel__image" src="./figures/wp_mountain_reflection.jpg" alt="lake view"> 
+                   
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">&#10095</button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
